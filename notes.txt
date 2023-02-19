@@ -1,0 +1,35 @@
+Employee Management System
+
+
+
+1) create a project - npx create-react-app ems
+2)To run a project - npm start
+3)Bootstrap - npm i react-bootstrap bootstrap
+4)bootswatch - for theme
+5)creating components
+6)Employee.js - create a array of Employee data
+7)home.js - to create a home page
+8)icons react icons github icons io 
+npm i react-icons
+9)add.js to add Employee
+  10)edit.js to edit existing Employee
+11)Routing - To render on epage to another
+       npm i react-router-dom
+  
+       import{BrowseRouter,routes,route}
+   route:    Declares an element that should be rendered at a certain URL path.
+   routes:A container for a nested tree of elements that renders the branch that best matches the current location.
+   BrowseRouter:A <Router> for use in web browsers. Provides the cleanest URLs.
+  
+  12)link import {link} from react-router-dom
+      <link to={'/add}></link>
+
+13)Delete functionality 
+13)usenavigate()    react hook:Returns an imperative method for changing the location. Used by s, but may also be used by other elements to change the location.
+14)edit functionality
+
+HOOKS USED IN ems
+
+1)useState()-react hook -to manage states and returns a stateful value and an update function to update it
+2)useEffcet()-react hook- to manage side effects
+3)useNavigate-react hook-to access react router history obejct and navigate other router
